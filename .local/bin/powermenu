@@ -1,0 +1,12 @@
+#!/bin/sh
+
+CHOSEN=$(printf " Lock\n Sleep\n Restart\n Shut Down\n Log Out" | tofi --config ~/.config/tofi/powermenu-config)
+
+case "$CHOSEN" in
+     " Lock") ;;
+     " Sleep") systemctl suspend ;;
+     " Restart") reboot ;;
+     " Shut Down") poweroff ;;
+     " Log Out") hyprctl dispatch exit ;;
+     *) exit 1 ;;
+esac
