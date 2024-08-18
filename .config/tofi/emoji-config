@@ -1,0 +1,16 @@
+anchor = center
+width = 50%
+height = 50%
+horizontal = false
+font-size = 14
+prompt-text = "emoji: "
+text-color = #cdd6f4
+prompt-color = #f9e2af
+font = Cantarell
+outline-width = 0
+border-width = 1
+border-color = #181825
+background-color = #1e1e2edd
+result-spacing = 15
+selection-color = #f9e2af
+corner-radius = 10

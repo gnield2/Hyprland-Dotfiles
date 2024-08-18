@@ -1,0 +1,26 @@
+anchor = top-left
+margin-top = 40
+margin-left = 4
+width = 25%
+height = 50%
+horizontal = false
+font-size = 14
+prompt-text = "> "
+
+text-color = #cdd6f4
+prompt-color = #74c7ec
+selection-background = #74c7ec
+selection-background-padding = 10, 16
+selection-background-corner-radius = 10
+selection-color = #1e1e2e
+corner-radius = 10
+
+text-cursor = true
+text-cursor-style = underscore
+font = GohuFont 11 Nerd Font
+outline-width = 0
+border-width = 1
+border-color = #181825 
+background-color = #1e1e2edd
+min-input-width = 120
+result-spacing = 15
